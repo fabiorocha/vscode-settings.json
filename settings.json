@@ -1,0 +1,40 @@
+// Settings that overwrite default and user settings
+{
+    // Controls if the diff editor shows the diff side by side or inline
+    "diffEditor.renderSideBySide": false,
+
+    // Insert spaces when pressing Tab.
+    "editor.insertSpaces": true,
+
+    // Controls whether the editor should render whitespace characters
+    "editor.renderWhitespace": "all",
+
+    // When enabled, will trim trailing whitespace when you save a file
+    "files.trimTrailingWhitespace": true,
+
+    // Default end of line character
+    "files.eol": "\n",
+
+    // Glob patterns for excluding folders and files
+    "files.exclude": {
+            "*.build": true,
+            "*.git": true,
+            "*.err": true,
+            "*.rec": true,
+            "*.log": true,
+            "**/.DS_Store": true
+        },
+
+    // Glob patterns for excluding files and folders in searches.
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        ".build/**": true,
+        "out*/**": true,
+        "i18n/**": true,
+        "extensions/**/out/**": true
+    },
+
+    // Enable for TypeScript files or not.
+    "tslint.enable": true
+}
