@@ -1,5 +1,8 @@
 // Settings that overwrite default and user settings
 {
+    // Disable welcome screen on startup
+    "workbench.welcome.enabled": false,
+
     // Controls if the diff editor shows the diff side by side or inline
     "diffEditor.renderSideBySide": false,
 
@@ -22,6 +25,8 @@
             "*.err": true,
             "*.rec": true,
             "*.log": true,
+            "buildfre.*": true,
+            "buildchk.*": true,
             "**/.DS_Store": true
         },
 
