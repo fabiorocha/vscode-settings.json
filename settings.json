@@ -12,9 +12,6 @@
     // Controls whether the editor should render whitespace characters
     "editor.renderWhitespace": "all",
 
-    // Maximum number of working files to show before scrollbars appear
-    "explorer.workingFiles.maxVisible": 10,
-
     // Extensions to be installed by the Extension Manager
     "extension-manager.extensions": [
         "eg2.tslint", // TypeScript linter
