@@ -12,6 +12,9 @@
     // Controls whether the editor should render whitespace characters
     "editor.renderWhitespace": "all",
 
+    // Maximum number of working files to show before scrollbars appear.
+    "explorer.workingFiles.maxVisible": 10,
+
     // When enabled, will trim trailing whitespace when you save a file
     "files.trimTrailingWhitespace": true,
 
