@@ -6,14 +6,22 @@
     // Controls if the diff editor shows the diff side by side or inline
     "diffEditor.renderSideBySide": false,
 
-    // Insert spaces when pressing Tab.
+    // Insert spaces when pressing Tab
     "editor.insertSpaces": true,
 
     // Controls whether the editor should render whitespace characters
     "editor.renderWhitespace": "all",
 
-    // Maximum number of working files to show before scrollbars appear.
+    // Maximum number of working files to show before scrollbars appear
     "explorer.workingFiles.maxVisible": 10,
+
+    // Extensions to be installed by the Extension Manager
+    "extension-manager.extensions": [
+        "eg2.tslint", // TypeScript linter
+        "ms-vscode.cpptools", // Cpp tools
+        "msjsdiag.debugger-for-chrome", // Debugger for Chrome
+        "robertohuertasm.vscode-icons" // Cool icons for files
+    ],
 
     // When enabled, will trim trailing whitespace when you save a file
     "files.trimTrailingWhitespace": true,
@@ -33,7 +41,7 @@
             "**/.DS_Store": true
         },
 
-    // Glob patterns for excluding files and folders in searches.
+    // Glob patterns for excluding files and folders in searches
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
@@ -43,6 +51,6 @@
         "extensions/**/out/**": true
     },
 
-    // Enable for TypeScript files or not.
+    // Enable linter for TypeScript files
     "tslint.enable": true
 }
