@@ -4,6 +4,7 @@
 2. Install the extension manager extension via: "ext install extension-manager".
 3. Run "Install Missing Extensions" - to install missing extensions the list defined in settings.json.
 4. Reopen VS Code to activate extensions.
+5. Select your icons via: File > Preferences > File Icon Theme > VSCode Icons
 
 ## Settings File Locations
 Depending on your platform, the user settings file is located here:
