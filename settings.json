@@ -1,4 +1,7 @@
 // Settings that overwrite default and user settings
+
+// The JSON format doesn't support comments but
+// VS Code ignores these so we add them for clarity
 {
     // Disable welcome screen on startup
     "workbench.welcome.enabled": false,
