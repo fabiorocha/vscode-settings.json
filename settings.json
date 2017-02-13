@@ -48,7 +48,8 @@
         ".build/**": true,
         "out*/**": true,
         "i18n/**": true,
-        "extensions/**/out/**": true
+        "extensions/**/out/**": true,
+        "*.min.js": true
     },
 
     // Enable linter for TypeScript files
