@@ -12,6 +12,12 @@
     // Insert spaces when pressing Tab
     "editor.insertSpaces": true,
 
+    // Minimap
+    "editor.minimap.enabled": true,
+
+    // A multiplier to be used on the `deltaX` and `deltaY` of mouse wheel scroll events
+    "editor.mouseWheelScrollSensitivity": 5,
+
     // Controls whether the editor should render whitespace characters
     "editor.renderWhitespace": "all",
 
@@ -31,13 +37,14 @@
 
     // Glob patterns for excluding folders and files
     "files.exclude": {
-            "*.build": true,
-            "*.git": true,
-            "*.err": true,
-            "*.rec": true,
-            "*.log": true,
-            "buildfre.*": true,
-            "buildchk.*": true,
+            "**/*.build": true,
+            "**/*.git": true,
+            "**/*.err": true,
+            "**/*.rec": true,
+            "**/*.log": true,
+            "**/*.evt": true,
+            "**/buildfre.*": true,
+            "**/buildchk.*": true,
             "**/.DS_Store": true
         },
 
@@ -53,5 +60,11 @@
     },
 
     // Enable linter for TypeScript files
-    "tslint.enable": true
+    "tslint.enable": true,
+    "files.associations": {
+        "deque": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp"
+    }
 }
